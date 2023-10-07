@@ -1,0 +1,76 @@
+
+.svetofor div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50% 
+}
+      
+
+.color1 {
+    background-color: rgb(206, 0, 0);
+    
+}
+
+.color2 {
+    background-color: rgb(248, 252, 0);
+     
+}
+
+.color3 {
+    background-color: rgb(0, 245, 0);
+  
+}
+
+/* Длинный вариант */
+/* 
+.color1 {
+    background-color: rgb(206, 0, 0);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%        
+}
+
+.color2 {
+    background-color: rgb(248, 252, 0);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%        
+}
+
+.color3 {
+    background-color: rgb(0, 245, 0);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%    
+} */
+
+/* Шрифты */
+p {
+    /* monospace - все буквы одинаковой ширины */
+    font-family: monospace;
+    /* fz15 - размер шрифта */
+    font-size: 45px;
+    /* fw - написание  жирный и т.д */
+    /* толщину шрифта можно записывать от 100 до 900 */
+    font-weight: bolder;
+    /* lh30 - расстояние между строками */
+    line-height: 3;
+    /* tac - текст по центру и др. */
+    text-align: justify;
+    /* подчеркивание снизу */
+    text-decoration: underline;  
+    /* делает все символы Заглавными  */
+    text-transform: uppercase;
+}
+
+a {
+    /* убрать подчеркивание у ссылки */
+    text-decoration: none;
+    font-size: 45px;
+}
+
+ol {
+    /* убрали 1, 2, 3 */
+    list-style: none;
+    font-size: 45px;
+}

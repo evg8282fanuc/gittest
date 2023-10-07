@@ -1,0 +1,25 @@
+/* пединги и бордеры не будут учитываться на всей странице и не будут менять размер блоков */
+* {
+    box-sizing: border-box;
+}
+
+.box {
+   
+    /* размер не будет изменяться за счет padding и border, т.е. эти границы учтуться внутри */
+        box-sizing: border-box;
+
+    width: 150px;
+    height: 150px;
+    border: 1px solid coral;
+
+}
+
+.box1 {
+    background-color: rgb(213, 94, 94);
+    margin: 10px 20px 40px;
+    padding: 10px;
+}
+
+.box2 {
+    background-color: rgb(108, 99, 143);
+}

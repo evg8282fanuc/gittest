@@ -1,0 +1,27 @@
+div {
+    color: blue;
+}
+
+div[title="text"] 
+{
+    color: brown;
+}
+
+p {
+    color: coral;
+    /* background-color: darkblue; */
+    border: 5px rgb(166, 0, 255) outset;
+    border-radius: 10px 20px 30px 50px;
+    border-right: 40px rgb(166, 0, 255) outset;
+    
+}
+
+.logo {
+    background-image: url(../img/logo2.PNG);
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    width: 150px;
+    height: 50px;
+    border: 20px solid brown;
+
+}

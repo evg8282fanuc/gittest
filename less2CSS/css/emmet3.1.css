@@ -1,0 +1,43 @@
+
+
+/* margin: 2.5em; - m2.5
+padding: 10px 15px; -  p10-15
+width: 10%; -  w10p
+padding: 10%; -  p10%
+margin: 10px 15px 20px; -  m10-15-20 */
+
+
+div {
+    /* lh2px */
+    line-height: 2px;
+    /* lh2p */
+    line-height: 2%;
+    /* lh2 */
+    line-height: 2;
+}
+
+/* Подключение шрифтов Гугл Фонтс
+https://www.youtube.com/shorts/3E0iebEtvBs */
+
+
+div {
+    /* poa */
+    position: absolute;
+    /* z5 */
+    z-index: 5;
+    /* p!5 */
+    padding: 5px !important;
+    /* dib */
+    display: inline-block;
+}
+
+div {
+    cur     cursor
+    rsz     resize
+    ov      overflow
+    d       display
+    fl      float
+    pos     position
+}
+
+

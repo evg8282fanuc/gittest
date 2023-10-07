@@ -1,0 +1,84 @@
+div {
+    bd
+    border: 1px solid #000;
+    bdrs8
+    border-radius: 8px;
+    
+
+    /* Свойства для списков */
+    list-style-type: disc;
+    list-style: ;
+   
+    Другие свойства
+
+    подключение шрифта
+    
+    @font-face {
+        font-family: ;
+        src: url();
+    }
+
+
+    если указать @ff
+    @font-face {
+        font-family: 'FontName';
+        src: url('FileName.eot');
+        src: url('FileName.eot?#iefix') format('embedded-opentype'),
+             url('FileName.woff') format('woff'),
+             url('FileName.ttf') format('truetype'),
+             url('FileName.svg#FontName') format('svg');
+        font-style: normal;
+        font-weight: normal;
+    }
+
+    ac
+align-content: start;
+
+-m - ото передача свойств для разных браузеров Например  мозила
+:-moz-first-node
+-o 
+:out-of-range
+}
+
+div {
+    lisn    list-style: none;      
+    
+    @f  @font-face {
+        font-family: ;
+        src: url();
+    }
+    
+    @i    @import url(); 
+    
+    
+   @m        @media screen { } 
+}
+
+
+
+
+div {
+    /* fz26 */
+    font-size: 26px;
+
+    /* lh15px */
+    line-height: 15px;
+
+    /* c#ff */
+    color: #fff;
+
+
+    /* fw400 */
+    font-weight: 400;
+
+    
+    подключает сторонние шрифты
+    @font-face {
+        font-family: ;
+        src: url();
+    }
+
+    
+}
+
+

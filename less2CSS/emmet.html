@@ -1,0 +1,215 @@
+<div></div>
+<div>
+    <p><span></span><em></em></p>
+</div>
+<blockquote></blockquote>
+
+
+сочетания клавищ в емет 
+
+
+<!-- a+ul>li -->
+
+<!-- div>p>h2+span^b -->
+
+<!-- lorumru -->
+Далеко-далеко, за словесными горами в стране гласных и согласных живут рыбные тексты. Толку пунктуация безорфографичный переулка пустился если. Правилами рыбными которое толку о однажды образ по всей букв одна большого власти рыбного, диких, от всех, дороге бросил свое! Грамматики всемогущая, даже пояс по всей переписали имени города там путь ведущими толку пустился рыбными коварных пор.
+
+
+
+
+<!-- <p><span></span><em></em></p> - чтобы скопировать вниз несколько раз Alt+Shift+стрелка вниз -->
+
+
+<!-- Мультикурсор Alt + ЛКМ  -->
+
+<!-- Ctrl+пробел - запустили создание емет-->
+
+
+<!-- Несколько элементов создаются так:
+
+ul>li*3 -->
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+
+ 
+<!-- 
+Можно использовать символ $ для того чтобы задавать номер в названии класса
+
+ul>li.primer$*2 -->
+<ul>
+    <li class="primer1"></li>
+    <li class="primer2"></li>
+</ul>
+
+
+<!-- ul>li.primer52$*3 -->
+<ul>
+    <li class="primer521"></li>
+    <li class="primer522"></li>
+    <li class="primer523"></li>
+</ul>
+
+
+<!-- ul>li.primer$$$*3 -->
+<ul>
+    <li class="primer001"></li>
+    <li class="primer002"></li>
+    <li class="primer003"></li>
+</ul>
+
+<!-- ul>li.primer$@-*3 -->
+<ul>
+    <li class="primer3"></li>
+    <li class="primer2"></li>
+    <li class="primer1"></li>
+</ul>
+
+<!-- ul>li.primer$@3*4 -->
+<ul>
+    <li class="primer3"></li>
+    <li class="primer4"></li>
+    <li class="primer5"></li>
+    <li class="primer6"></li>
+</ul>
+
+<!-- создаем пять тегов а внутри ли
+ul>li*5>a -->
+<ul>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+</ul>
+
+<!-- Группировка делается с помощью круглых скобок: -->
+
+<div>
+    <header>
+        <ul>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </ul>
+    </header>
+    <footer>
+        <p></p>
+    </footer>
+</div>
+
+
+<!-- Группировка скобками
+(div>dl>(dt+dd)*3)+footer>p -->
+<div>
+    <dl>
+        <dt></dt>
+        <dd></dd>
+        <dt></dt>
+        <dd></dd>
+        <dt></dt>
+        <dd></dd>
+    </dl>
+</div>
+<footer>
+    <p></p>
+</footer>
+
+<!-- Создаем класс .title -->
+<div class="title"></div>
+
+<!-- p.primer1.primer2.primer3 -->
+<p class="primer1 primer2 priper3"></p>
+
+
+<!-- Создаем id -->
+<div id="header"></div>
+
+<!-- form#search.wide -->
+<form action="" id="search" class="wide"></form>
+
+
+Произвольные атрибуты создаются так:
+
+<!-- p[title="Hello world"] -->
+
+<p title="Hello world"></p>
+
+<!-- td[rowspan=2 colspan=3 title] -->
+
+<td rowspan="2" colspan="3" title=""></td>
+
+<!-- [a='value1' b="value2"] -->
+
+<div a="value1" b="value2"></div>
+
+Чтобы указать текст нужно заключить его в фигурные скобки, так:
+a{Click me}
+
+<a href="">Click me</a>
+
+p>{Click }+a{here}+{ to continue}
+
+<p>Click <a href="">here</a> to continue</p>
+
+<!-- h$[title=item$]{lorem}*3 -->
+<h1 title="item1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis praesentium vero aliquam sed accusantium magnam dignissimos? Nam amet iusto repellendus nisi facilis possimus veritatis mollitia nostrum, ipsam labore sed sunt!</h1>
+<h2 title="item2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis praesentium vero aliquam sed accusantium magnam dignissimos? Nam amet iusto repellendus nisi facilis possimus veritatis mollitia nostrum, ipsam labore sed sunt!</h2>
+<h3 title="item3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis praesentium vero aliquam sed accusantium magnam dignissimos? Nam amet iusto repellendus nisi facilis possimus veritatis mollitia nostrum, ipsam labore sed sunt!</h3>
+
+
+<!-- .class -->
+<div class="class"></div>
+
+<!-- em>.class -->
+<em><span class="class"></span></em>
+
+<!-- ul>.class -->
+<ul>
+  <li class="class"></li>
+</ul>
+
+
+<!-- table>.row>.col -->
+<table>
+  <tr class="row">
+    <td class="col"></td>
+  </tr>
+</table>
+
+<!-- Проверочное задание -->
+<!-- .container>.row>.col-sm-12 -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12"></div>
+    </div>
+</div>
+
+
+p>.accent-color{Text }{accent}
+<p><span class="accent-color">Text </span>accent</p>
+
+
+<!-- 2 EMMET для HTML -->
+a:tel
+<a href="tel:+"></a>
+a:mail
+<a href="mailto:"></a>
+a:link
+<a href="http://"></a>
+
+
+
+
+footer.footer>.container>.footer__flex>p.text-p.footer__copyright{&copy; 2019 Строительная компания}+p.text-p.footer__brand{Разработано лучшей студией}
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__flex">
+            <p class="text-p footer__copyright">&copy; 2019 Строительная компания</p>
+            <p class="text-p footer__brand">Разработано лучшей студией</p>
+        </div>
+    </div>
+</footer>

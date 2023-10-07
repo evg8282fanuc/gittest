@@ -1,0 +1,15 @@
+#title {
+    color: rgb(214, 47, 29);     
+ }
+
+div[title="text"] {
+    color: rgb(104, 253, 40)
+}
+
+.element {
+    color: rgb(120, 136, 100);     
+ }
+
+h1 {
+   color: rgb(0, 0, 100);    
+}

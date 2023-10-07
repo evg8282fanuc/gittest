@@ -1,0 +1,59 @@
+/* 3.4 Фильтры, работа с БЭМ, Настройки Emmet и VS Code */
+
+|c - добавляет коментарии в конце закрывающих тегов
+#content>p.title|c
+
+<div id="content">
+    <p class="title"></p>
+    <!-- /.title -->
+</div>
+<!-- /#content -->
+
+есть много других разных фильтров смотри в документации еммет Filters
+
+
+
+<!-- 3.4 Фильтры, работа с БЭМ, Настройки Emmet и VS Code -->
+
+<!-- БЭМ методология написания кода -->
+
+<!-- .b1>.b2_m1>.-e1+.--e2_m2 -->
+
+<div class="b1">
+    <div class="b2_m1">
+        <div class="-e1"></div>
+        <div class="--e2_m2"></div>
+    </div>
+</div>
+
+
+<!-- Фаил>Настройки>Параметры в меню Расширения>Emmet-->
+
+<h2></h2>
+
+<!-- (.about__item>.about__year+p)*2 -->
+
+<div class="about__item">
+    <div class="about__year"></div>
+    <p></p>
+</div>
+<div class="about__item">
+    <div class="about__year"></div>
+    <p></p>
+</div>
+
+header.header>h1.header__title+p.header__text
+<header class="header">
+    <h1 class="header__title"></h1>
+    <p class="header__text"></p>
+</header>
+
+
+
+alt+shift+down  дублировать строку вниз
+ctrl+]          добавить табуляцию
+ctrl+[          убрать табуляцию
+alt+click       добавить курсор
+alt+z           включить перенос строк 
+
+

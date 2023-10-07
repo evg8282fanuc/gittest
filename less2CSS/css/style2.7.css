@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+
+}
+
+
+/* изменяет курсор стрелку на курсор руку
+button {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+} */
+
+/* изменяет курсор стрелку на курсор c вопросом */
+button {
+    cursor: help;
+    width: 100px;
+    height: 100px;
+}
+
+/* <!-- псевдокласс включается только при наведении курсором -->
+псевдокласс записывают через : */
+a:hover {
+    /* отключит подчеркивание */
+    text-decoration: none;
+    color: rgb(42, 165, 56);
+
+} 
+
+/* для третьего дочернего элемента li */
+/* nth-child(odd) - для всех нечетных */
+/* nth-child(even) - для всех четных */
+ul li:nth-child(3){
+    color: green
+    ;
+} 
+
+.menu li:nth-child(2){ 
+    color: rgb(60, 0, 128)
+    ;
+} 
+
+table tr:nth-child(even) {
+    background-color: rgb(227, 207, 227);
+    color: rgb(96, 128, 0)
+    ;
+}
+
+
+/* Псевдоэлементы */
+div::before {
+    content: "new";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12"></div>
+    </div>
+</div>

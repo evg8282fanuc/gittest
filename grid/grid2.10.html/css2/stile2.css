@@ -1,0 +1,152 @@
+/* создаем переменную */
+
+:root {
+    --gutter: 15px;  
+    --bg: tomato;
+}
+/* создали переменную разрыв */
+/* создали переменную цвет */
+
+
+
+*, *:before, *:after {
+    box-sizing: inherit; 
+}
+/* наследуем для всех элементов */
+
+html {
+    box-sizing: border-box;
+    font-size: 18px;
+}
+body,p,h1,h2,h3,ul,ol {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: var(--bg);
+}
+.container {
+    background-color: #eee;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;    
+}
+.row > div {
+    padding: 15px;
+    margin: 0 auto;
+    background-color: wheat;
+    border: 1px solid gray;
+}
+
+/*  Расчитываем соотношение колонок
+    3/12 = 0.25     --25%
+    4/12 = 0.33     --33%
+    6/12 = 0.5      --50%
+    12/12 = 1.0     --100% */
+
+.col-3 {
+    width: calc(25% - var(--gutter));
+}
+.col-4 {
+    width: calc(33.33% - var(--gutter));
+}
+.col-6 {
+    width: calc(50% - var(--gutter));
+}
+.col-12 {
+    width: calc(100% - var(--gutter));
+}
+
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 100%;
+    }
+    .col-lg-3 {
+        width: calc(25% - var(--gutter));
+    }
+    .col-lg-4 {
+        width: calc(33.33% - var(--gutter));
+    }
+    .col-lg-6 {
+        width: calc(50% - var(--gutter));
+    }
+    .col-lg-12 {
+        width: calc(100% - var(--gutter));
+    }
+}
+@media screen and (max-width: 768px) {
+    .col-md-3 {
+        width: calc(25% - var(--gutter));
+    }
+    .col-md-4 {
+        width: calc(33.33% - var(--gutter));
+    }
+    .col-md-6 {
+        width: calc(50% - var(--gutter));
+    }
+    .col-md-12 {
+        width: calc(100% - var(--gutter));
+    }
+}
+@media screen and (max-width: 576px) {
+    .col-sm-3 {
+        width: calc(25% - var(--gutter));
+    }
+    .col-sm-4 {
+        width: calc(33.33% - var(--gutter));
+    }
+    .col-sm-6 {
+        width: calc(50% - var(--gutter));
+    }
+    .col-sm-12 {
+        width: calc(100% - var(--gutter));
+    }
+}
+
+
+
+
+
+
+
+/* 
+
+
+/* Пишем медиа запросы после основных стилей или подключаем отдельным файлом @media*/
+
+/* @media screen and (max-width: 992px) {
+    .container {
+        max-width: 100%;
+    }
+
+    /* когда экран растянут больше 992 мы не увидим черный прямоугольник */
+    /* body {
+        background-color: rgb(19, 3, 3);
+    }
+}   */
+   
+
+
+/* Здесь свойства для контейнера .container можно не писать так как свойства наследуются сверху вниз */
+
+/* @media screen and (max-width: 768px) { */
+    /* .container {
+        max-width: 100%;
+    } */
+    /* body {
+        background-color: rgb(209, 17, 17);
+    }
+}  */
+
+/* @media screen and (max-width: 576px) {     */
+    /* body {
+        background-color: rgb(214, 201, 21);
+    }
+}  */
+ */
+
